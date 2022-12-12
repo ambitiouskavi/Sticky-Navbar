@@ -1,0 +1,42 @@
+#flex-container{
+    display:flex;
+    background-color:black;
+    color:white;
+    justify-content:space-between;
+    font-size:20px;
+    padding:10px;
+    position:sticky;
+    top:0;
+}
+
+#item2{
+ justify-content:between;
+}
+a{
+    color:white;
+    text-decoration:none;
+    margin-right: 10px;
+}
+#main-section{
+    display:flex;
+    justify-content: space-between;
+    padding:30px;
+    margin:30px;
+}
+button{
+    width:150px;
+    height:35px;
+    background-color: black;
+    color:white;
+}
+#para{
+    width:500px;
+    margin:60px;
+}
+#image{
+    margin:60px;
+}
+button{
+    margin-top:10px;
+    padding:10px;
+}
