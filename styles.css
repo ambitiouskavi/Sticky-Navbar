@@ -17,11 +17,11 @@ a{
     text-decoration:none;
     margin-right: 10px;
 }
-#main-section{
+#info-flex{
     display:flex;
     justify-content: space-between;
-    padding:30px;
-    margin:30px;
+    padding:10px;
+    margin:10px;
 }
 button{
     width:150px;
@@ -30,13 +30,26 @@ button{
     color:white;
 }
 #para{
-    width:500px;
-    margin:60px;
+    width:600px;
+    margin:30px;
 }
-#image{
-    margin:60px;
-}
+
 button{
     margin-top:10px;
     padding:10px;
+}
+.box{
+    height:400px;
+    width:400px;
+    background-color:green ;
+}
+.ImageFlex{
+    display:flex;
+    gap:50px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+   
+}
+#imageheading{
+    margin-left:50px;
 }
